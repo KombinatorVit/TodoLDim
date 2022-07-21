@@ -12,13 +12,11 @@ function App() {
     const tasks2 = [
         {id: 1, title: 'Hello world', isDone: true},
         {id: 2, title: 'I am Happy', isDone: false},
-        {id: 3, title: 'Yo', isDone: false}
     ];
 
     return (
         <div className="App">
             <TodoList title={'What to learn'} tasks={tasks1} />
-            <TodoList title={'Songs'} tasks={tasks2}/>
             <TodoList title={'Songs'} tasks={tasks2}/>
             <TodoList title={'Songs'} tasks={tasks2}/>
             <TodoList title={'Songs'} tasks={tasks2}/>
