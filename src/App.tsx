@@ -15,6 +15,14 @@ function App() {
         {id: v1(), title: 'ReactJS', isDone: false},
         {id: v1(), title: 'Redux', isDone: false}
     ]);
+
+
+    function addTask(title:string){
+        let newTask = {id: v1(), title: title, isDone: false}
+        let newTasks = [newTask, ...tasks]
+        setTasks(newTasks)
+    }
+
     let [filter, setFilter] = useState<FilterValuesType>('all');
 
     function removeTask(id: string) {
@@ -41,6 +49,7 @@ setFilter(value)
                       tasks={tasksForTodoList}
                       removeTask={removeTask}
                       changeFilter={changeFilter}
+                      addTask={addTask}
             />
 
 
