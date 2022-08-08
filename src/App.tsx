@@ -55,6 +55,14 @@ function App() {
         setTasks([...tasks]);
     }
 
+
+    let todolists = [
+        {id: v1(), title: 'What to learn', filter:'active' },
+        {id: v1(), title: 'What to buy', filter:'completed' }
+    ]
+
+
+
     return (
         <div className="App">
             <TodoList title={'What to learn'}
@@ -65,6 +73,7 @@ function App() {
                       changeTaskStatus={changeStatus}
                       filter={filter}
             />
+
 
 
         </div>
