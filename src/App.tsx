@@ -47,15 +47,12 @@ function App() {
     }
 
 
-    function changeStatus(taskId: string, isDone:boolean) {
-        let task = tasks.find((t) =>  t.id === taskId)
-        if(task){
-        task.isDone=isDone
+    function changeStatus(taskId: string, isDone: boolean) {
+        let task = tasks.find((t) => t.id === taskId);
+        if (task) {
+            task.isDone = isDone;
         }
-
-
-
-        setTasks([...tasks])
+        setTasks([...tasks]);
     }
 
     return (

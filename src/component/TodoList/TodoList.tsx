@@ -73,7 +73,9 @@ export function TodoList(props: TodoListType) {
                     };
 
                     return (
-                        <li key={t.id} className={t.isDone ?'is-done': ''}><input type="checkbox" onChange={onChangeHandler} checked={t.isDone}/>
+                        <li key={t.id} className={t.isDone ? 'is-done' : ''}><input type="checkbox"
+                                                                                    onChange={onChangeHandler}
+                                                                                    checked={t.isDone}/>
                             <span>{t.title}</span>
                             <button onClick={onRemoveHandler}
                             >X
@@ -90,8 +92,8 @@ export function TodoList(props: TodoListType) {
                 <button className={props.filter === 'active' ? 'active-filter' : ''}
                         onClick={onActiveClickHandler}>Active
                 </button>
-                <button  className={props.filter === 'completed' ? 'active-filter' : ''}
-                         onClick={onCompletedClickHandler}>Completed
+                <button className={props.filter === 'completed' ? 'active-filter' : ''}
+                        onClick={onCompletedClickHandler}>Completed
                 </button>
             </div>
         </div>
