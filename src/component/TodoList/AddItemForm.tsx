@@ -1,8 +1,10 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
+import {Button, IconButton, TextField} from '@mui/material';
+import {ControlPoint} from '@mui/icons-material';
 
 
 type AddItemFormPropsType = {
-    addItem: (title: string) => void
+    callback: (title: string) => void
 }
 
 export function AddItemForm(props: AddItemFormPropsType) {
@@ -15,13 +17,13 @@ export function AddItemForm(props: AddItemFormPropsType) {
     const onKeyPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
         setError(null);
         if (e.charCode === 13) {
-            props.addItem(newTaskTitle);
+            props.callback(newTaskTitle);
             setNewTaskTitle('');
         }
     };
     const addTask = () => {
         if (newTaskTitle.trim() !== '') {
-            props.addItem(newTaskTitle.trim());
+            props.callback(newTaskTitle.trim());
             setNewTaskTitle('');
         } else {
             setError('Title is required');
@@ -29,17 +31,19 @@ export function AddItemForm(props: AddItemFormPropsType) {
     };
     return (
         <div>
-            <input value={newTaskTitle}
+            <TextField value={newTaskTitle} variant={'outlined'}
+                       label={'Type value'}
                    onChange={onNewTitleChangeHandler}
 
                    onKeyPress={onKeyPressHandler}
-                   className={error ? 'error' : ''}
+            error={!!error}
+                       helperText={error}
             />
-            <button onClick={addTask}
+            <IconButton onClick={addTask}  color={'primary'}>
 
-            >+
-            </button>
-            {error && <div className={'error-message'}>{error}</div>}
+                <ControlPoint />
+            </IconButton>
         </div>
+
     );
 }
