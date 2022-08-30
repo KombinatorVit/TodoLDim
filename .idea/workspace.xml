@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e416ccff-7b46-4ce8-be59-2ea62227d0c6" name="Changes" comment="Todolist for students 07" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2CGeJYROiqyWX8sD0N2kswT9vmS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\Desktop\\WEB 2022\\10.07.2022\\react\\incubator\\todolist\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\user\Desktop\WEB 2022\10.07.2022\react\incubator\todolist\src\component\TodoList\EditableSpan.tsx" />
+      <recent name="C:\Users\user\Desktop\WEB 2022\10.07.2022\react\incubator\todolist\src\component\TodoList\AddItemForm.tsx" />
+      <recent name="C:\Users\user\Desktop\react\todolist\src\component\TodoList\TodoList.tsx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e416ccff-7b46-4ce8-be59-2ea62227d0c6" name="Changes" comment="" />
+      <created>1658433277646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658433277646</updated>
+      <workItem from="1658433279101" duration="225000" />
+      <workItem from="1658433539130" duration="5205000" />
+      <workItem from="1658709036577" duration="10597000" />
+      <workItem from="1658770097629" duration="919000" />
+      <workItem from="1658781310237" duration="8448000" />
+      <workItem from="1659293262509" duration="161000" />
+      <workItem from="1659312915596" duration="414000" />
+      <workItem from="1659351082186" duration="7970000" />
+      <workItem from="1659967092534" duration="1340000" />
+      <workItem from="1659978563976" duration="4252000" />
+      <workItem from="1660048593137" duration="13631000" />
+      <workItem from="1660648609832" duration="1542000" />
+      <workItem from="1660663582566" duration="502000" />
+      <workItem from="1660664294907" duration="5264000" />
+      <workItem from="1661109164995" duration="1284000" />
+      <workItem from="1661251341397" duration="10025000" />
+      <workItem from="1661269465419" duration="6330000" />
+      <workItem from="1661280756989" duration="8930000" />
+      <workItem from="1661892727445" duration="363000" />
+    </task>
+    <task id="LOCAL-00001" summary="STart pr">
+      <created>1658437183337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658437183337</updated>
+    </task>
+    <task id="LOCAL-00002" summary="map and onclick in project">
+      <created>1658438760947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658438760947</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Todolist for students 02  - map-useState - filter">
+      <created>1658755695631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658755695631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="uuid update">
+      <created>1658782315660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658782315660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Todolist for students 03">
+      <created>1658792578102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658792578102</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Todolist for students 04">
+      <created>1659362766407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659362766407</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Todolist for students 04">
+      <created>1659988700837</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659988700837</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Todolist for students 05 старт">
+      <created>1659994760406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659994760406</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Todolist for students 05">
+      <created>1660077622797</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660077622797</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Todolist for students 06">
+      <created>1661266404511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661266404511</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Todolist for students 07">
+      <created>1661293275795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661293275795</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="STart pr" />
+    <MESSAGE value="map and onclick in project" />
+    <MESSAGE value="Todolist for students 02  - map-useState - filter" />
+    <MESSAGE value="uuid update" />
+    <MESSAGE value="Todolist for students 03" />
+    <MESSAGE value="Todolist for students 04" />
+    <MESSAGE value="Todolist for students 05 старт" />
+    <MESSAGE value="Todolist for students 05" />
+    <MESSAGE value="Todolist for students 06" />
+    <MESSAGE value="Todolist for students 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todolist for students 07" />
+  </component>
+</project>
